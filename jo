@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خريطة الأردن</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>خريطة الأردن - المحافظات</h1>
+    <div class="map-container">
+        <div class="province" id="amman">
+            <a href="#amman-info">عمان</a>
+        </div>
+        <div class="province" id="zarqa">
+            <a href="#zarqa-info">الزرقاء</a>
+        </div>
+        <div class="province" id="irbid">
+            <a href="#irbid-info">إربد</a>
+        </div>
+        <div class="province" id="aqaba">
+            <a href="#aqaba-info">العقبة</a>
+        </div>
+        <div class="province" id="balqa">
+            <a href="#balqa-info">البلقاء</a>
+        </div>
+        <div class="province" id="mafraq">
+            <a href="#mafraq-info">المفرق</a>
+        </div>
+        <div class="province" id="karak">
+            <a href="#karak-info">الكرك</a>
+        </div>
+        <div class="province" id="maan">
+            <a href="#maan-info">معان</a>
+        </div>
+        <div class="province" id="madaba">
+            <a href="#madaba-info">مادبا</a>
+        </div>
+        <div class="province" id="tafila">
+            <a href="#tafila-info">الطفيلة</a>
+        </div>
+        <div class="province" id="ajloun">
+            <a href="#ajloun-info">عجلون</a>
+        </div>
+        <div class="province" id="jerash">
+            <a href="#jerash-info">جرش</a>
+        </div>
+    </div>
+
+    <div class="info-container">
+        <section id="amman-info">
+            <h2>عمان</h2>
+            <img src="amman.jpg" alt="صورة لعمان">
+            <p>عمان، عاصمة الأردن وأكبر مدنها. معروفة بتلالها السبعة وتاريخها العريق.</p>
+        </section>
+
+        <section id="zarqa-info">
+            <h2>الزرقاء</h2>
+            <img src="zarqa.jpg" alt="صورة للزرقاء">
+            <p>الزرقاء، مدينة صناعية كبرى في الأردن وتعتبر مركزًا اقتصاديًا هامًا.</p>
+        </section>
+
+        <section id="irbid-info">
+            <h2>إربد</h2>
+            <img src="irbid.jpg" alt="صورة لإربد">
+            <p>إربد، مدينة الشمال التي تتميز بجمال طبيعتها وأجوائها الهادئة.</p>
+        </section>
+
+        <section id="aqaba-info">
+            <h2>العقبة</h2>
+            <img src="aqaba.jpg" alt="صورة للعقبة">
+            <p>العقبة، بوابة الأردن إلى البحر الأحمر، مشهورة بشواطئها وسياحتها البحرية.</p>
+        </section>
+
+        <section id="balqa-info">
+            <h2>البلقاء</h2>
+            <img src="balqa.jpg" alt="صورة للبلقاء">
+            <p>البلقاء، تضم السلط وهي مدينة تاريخية ذات طابع مميز.</p>
+        </section>
+
+        <section id="mafraq-info">
+            <h2>المفرق</h2>
+            <img src="mafraq.jpg" alt="صورة للمفرق">
+            <p>المفرق، مدينة في شمال شرق الأردن، قريبة من الحدود السورية.</p>
+        </section>
+
+        <section id="karak-info">
+            <h2>الكرك</h2>
+            <img src="karak.jpg" alt="صورة للكرك">
+            <p>الكرك، مدينة تاريخية مشهورة بقلعتها التي تعود للعصور الوسطى.</p>
+        </section>
+
+        <section id="maan-info">
+            <h2>معان</h2>
+            <img src="maan.jpg" alt="صورة لمعان">
+            <p>معان، مدينة جنوبية معروفة بتاريخها العريق وقربها من البتراء.</p>
+        </section>
+
+        <section id="madaba-info">
+            <h2>مادبا</h2>
+            <img src="madaba.jpg" alt="صورة لمادبا">
+            <p>مادبا، مشهورة بالفسيفساء والخرائط التاريخية القديمة.</p>
+        </section>
+
+        <section id="tafila-info">
+            <h2>الطفيلة</h2>
+            <img src="tafila.jpg" alt="صورة للطفيلة">
+            <p>الطفيلة، تضم مناطق جبلية رائعة مثل محمية ضانا.</p>
+        </section>
+
+        <section id="ajloun-info">
+            <h2>عجلون</h2>
+            <img src="ajloun.jpg" alt="صورة لعجلون">
+            <p>عجلون، معروفة بقلعتها التاريخية وطبيعتها الخضراء.</p>
+        </section>
+
+        <section id="jerash-info">
+            <h2>جرش</h2>
+            <img src="jerash.jpg" alt="صورة لجرش">
+            <p>جرش، مدينة الآثار الرومانية التي تجذب السياح من جميع أنحاء العالم.</p>
+        </section>
+    </div>
+</body>
+</html>
